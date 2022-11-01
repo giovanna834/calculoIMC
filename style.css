@@ -98,9 +98,10 @@ main{
     color: black;
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1000px){
 
-   .card{
+    .card{
+        
         padding: 23px;
     }
 
@@ -113,6 +114,34 @@ main{
     }
     .resultado{
         width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1600px){
+
+    .card{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .conteudo-card{
+        margin-left: 70px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .resultado{
+        margin-left: 20px;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -148,28 +177,3 @@ main{
     }
 }
 
-@media screen and (max-width: 1000px){
-
-    .card{
-        width: 0%;
-        padding: 150px;
-    }
-
-    .conteudo-card{
-        margin-left: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
-    .resultado{
-        margin-left: 20px;
-        width: 250px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
-}

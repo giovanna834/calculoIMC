@@ -151,3 +151,29 @@ main{
         gap: 15px;
     }
 }
+
+@media screen and (max-width: 1000px){
+
+    .card{
+        width: 0%;
+        padding: 150px;
+    }
+
+    .conteudo-card{
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .resultado{
+        margin-left: 20px;
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}

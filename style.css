@@ -97,3 +97,57 @@ main{
     margin: 25px;
     color: black;
 }
+
+@media screen and (max-width: 1338px){
+
+    .card{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .conteudo-card{
+        margin-left: 70px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .resultado{
+        margin-left: 20px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1064px){
+
+    .card{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .conteudo-card{
+        margin-left: 50px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .resultado{
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}

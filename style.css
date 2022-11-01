@@ -98,6 +98,25 @@ main{
     color: black;
 }
 
+@media screen and (max-width: 500px){
+
+    .card{
+        padding: 150px;
+    }
+
+    .conteudo-card{
+        margin-left: 0;
+    }
+    .resultado{
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
 @media screen and (max-width: 1000px){
 
     .card{
@@ -113,6 +132,8 @@ main{
         gap: 15px;
     }
     .resultado{
+        margin-left: 0%;
+        margin-right: 50px;
         width: 250px;
         display: flex;
         flex-wrap: wrap;
@@ -154,11 +175,11 @@ main{
 
     .card{
         width: 100%;
-        padding: 40px;
+        padding: 150px;
     }
 
     .conteudo-card{
-        margin-left: 50px;
+        margin-left: 0px;
         width: 50%;
         display: flex;
         flex-wrap: wrap;
@@ -168,7 +189,7 @@ main{
     }
     .resultado{
         margin-left: 0px;
-        width: 100%;
+        width: 150px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

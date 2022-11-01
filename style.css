@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #e8f1f2;
+}
+body{
+    background-color: #afcdea;
+}
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.card{
+    margin: 100px;
+    padding: 40px;
+    max-width: 30%;
+    background-color: #13293d;  
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #5970b1ab;  
+}
+.head-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.head-card h1{
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 1px solid #1b98e0;
+}
+.conteudo-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.card-input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.card-input label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #e8f1f2;
+}
+.card-input input{
+    color: black;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #5970b1ab;
+}
+.botao-card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.botao-calcular{
+    border: none;
+    width: 150px;
+    background-color: #1b98e0;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #e8f1f2;
+    margin-right: 25px;
+}
+.limpar{
+    border: none;
+    width: 150px;
+    background-color: #1b98e0;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #e8f1f2;
+}
+.resultado{
+    background: #e8f1f2;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 350px;
+    height: 150px;
+    border-radius: 15px;
+}
+.resultado-texto{
+    margin: 25px;
+    color: black;
+}
